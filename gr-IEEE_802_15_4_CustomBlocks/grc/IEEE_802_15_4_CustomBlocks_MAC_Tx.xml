@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<block>
+  <name>MAC Tx</name>
+  <key>IEEE_802_15_4_CustomBlocks_MAC_Tx</key>
+  <category>[IEEE_802_15_4_CustomBlocks]</category>
+  <import>import IEEE_802_15_4_CustomBlocks</import>
+  <make>IEEE_802_15_4_CustomBlocks.MAC_Tx($fcf, $seq_nr, $dst_pan, $dst, $src_pan, $src)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Frame Control</name>
+    <key>fcf</key>
+    <value>0x8841</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Sequence Number</name>
+    <key>seq_nr</key>
+    <value>0</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Destination PAN</name>
+    <key>dst_pan</key>
+    <value>0x1aaa</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Destination Address</name>
+    <key>dst</key>
+    <value>0xffff</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Source PAN</name>
+    <key>src_pan</key>
+    <value>0x1aaa</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Source Address</name>
+    <key>src</key>
+    <value>0x3344</value>
+    <type>hex</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>message in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>mac out</name>
+    <type>message</type>
+    <optional>1</optional>
+</source>
+</block>

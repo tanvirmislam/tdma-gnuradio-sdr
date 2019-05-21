@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="receiver__packet__sink_8h" kind="file" language="C++">
+    <compoundname>receiver_packet_sink.h</compoundname>
+    <includes refid="api_8h" local="no">IEEE_802_15_4_CustomBlocks/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="receiver__packet__sink__impl_8h" local="no">receiver_packet_sink_impl.h</includedby>
+    <incdepgraph>
+      <node id="153">
+        <label>IEEE_802_15_4_CustomBlocks/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>receiver_packet_sink.h</label>
+        <link refid="receiver__packet__sink_8h"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="155">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="156">
+        <label>receiver_packet_sink.h</label>
+        <link refid="receiver__packet__sink_8h"/>
+        <childnode refid="157" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>receiver_packet_sink_impl.h</label>
+        <link refid="receiver__packet__sink__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" prot="public">gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1IEEE__802__15__4__CustomBlocks">gr::IEEE_802_15_4_CustomBlocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h"/>
+  </compounddef>
+</doxygen>

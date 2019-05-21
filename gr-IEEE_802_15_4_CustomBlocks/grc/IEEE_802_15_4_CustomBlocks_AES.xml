@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<block>
+    <name>AES</name>
+    <key>IEEE_802_15_4_CustomBlocks_AES</key>
+    <category>[IEEE_802_15_4_CustomBlocks]</category>
+    <import>import IEEE_802_15_4_CustomBlocks</import>
+    <make>IEEE_802_15_4_CustomBlocks.AES()</make>
+    <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+</block>

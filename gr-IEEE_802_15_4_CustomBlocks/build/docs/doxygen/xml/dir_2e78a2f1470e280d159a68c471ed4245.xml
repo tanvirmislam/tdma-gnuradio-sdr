@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_2e78a2f1470e280d159a68c471ed4245" kind="dir">
+    <compoundname>IEEE_802_15_4_CustomBlocks</compoundname>
+    <innerfile refid="AES_8h">AES.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="Beacon_8h">Beacon.h</innerfile>
+    <innerfile refid="MAC__Coordinator_8h">MAC_Coordinator.h</innerfile>
+    <innerfile refid="MAC__Receiver_8h">MAC_Receiver.h</innerfile>
+    <innerfile refid="MAC__Rx_8h">MAC_Rx.h</innerfile>
+    <innerfile refid="MAC__Sender_8h">MAC_Sender.h</innerfile>
+    <innerfile refid="MAC__Tx_8h">MAC_Tx.h</innerfile>
+    <innerfile refid="receiver__packet__sink_8h">receiver_packet_sink.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/"/>
+  </compounddef>
+</doxygen>

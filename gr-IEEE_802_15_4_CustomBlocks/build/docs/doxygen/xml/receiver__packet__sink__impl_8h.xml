@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="receiver__packet__sink__impl_8h" kind="file" language="C++">
+    <compoundname>receiver_packet_sink_impl.h</compoundname>
+    <includes refid="receiver__packet__sink_8h" local="no">IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h</includes>
+    <incdepgraph>
+      <node id="160">
+        <label>IEEE_802_15_4_CustomBlocks/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h</label>
+        <link refid="receiver__packet__sink_8h"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="162">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="158">
+        <label>receiver_packet_sink_impl.h</label>
+        <link refid="receiver__packet__sink__impl_8h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1IEEE__802__15__4__CustomBlocks">gr::IEEE_802_15_4_CustomBlocks</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="receiver__packet__sink__impl_8h_1a42f8c497a1968074f38bf5055c650dca" prot="public" static="no">
+        <name>VERBOSE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="27" column="9" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="receiver__packet__sink__impl_8h_1a0e095630d98a9b238fa98cc4913387f7" prot="public" static="no">
+        <name>VERBOSE2</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="29" column="9" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="receiver__packet__sink__impl_8h_1a57b9808903075bbac427e4fe16afb87d" prot="public" static="yes" mutable="no">
+        <type>const unsigned int</type>
+        <definition>const unsigned int CHIP_MAPPING[]</definition>
+        <argsstring>[]</argsstring>
+        <name>CHIP_MAPPING</name>
+        <initializer>= {
+                                                1618456172,
+                                                1309113062,
+                                                1826650030,
+                                                1724778362,
+                                                778887287,
+                                                2061946375,
+                                                2007919840,
+                                                125494990,
+                                                529027475,
+                                                838370585,
+                                                320833617,
+                                                422705285,
+                                                1368596360,
+                                                85537272,
+                                                139563807,
+                                                2021988657
+                                            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="38" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="receiver__packet__sink__impl_8h_1a76d285cf13273c0ba0007399122a32fe" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MAX_PKT_LEN</definition>
+        <argsstring></argsstring>
+        <name>MAX_PKT_LEN</name>
+        <initializer>= 128 -  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="57" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="receiver__packet__sink__impl_8h_1aa48772d4f76897f2b39392c115fd2a4a" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MAX_LQI_SAMPLES</definition>
+        <argsstring></argsstring>
+        <name>MAX_LQI_SAMPLES</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="58" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</compoundname>
+    <basecompoundref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" prot="public" virt="non-virtual">gr::IEEE_802_15_4_CustomBlocks::Beacon</basecompoundref>
+    <includes refid="Beacon__impl_8h" local="no">Beacon_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a39cfc3cf68ca4f6389d7e302d0c3f6ec" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_interval</definition>
+        <argsstring></argsstring>
+        <name>d_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="38" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a01695e0734ac377e9f1ccb50b965dc75" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_total_msg</definition>
+        <argsstring></argsstring>
+        <name>d_total_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="39" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1abd976d8d2fcdde857f1b6190378951bc" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_nmsg_left</definition>
+        <argsstring></argsstring>
+        <name>d_nmsg_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="40" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1ae5fc3cdd525a365dd9104a3791745bca" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="42" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1abd4de0b63b11ed3b155cd875450f3072" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_msg_len</definition>
+        <argsstring></argsstring>
+        <name>d_msg_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="43" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a971f0de60b3e42db4bb94051172c12e1" prot="private" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="45" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1ac95970fddf96e671aae2acbe99a3bdaa" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="46" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a1dfd57505a364beaeac4d980d3915f40" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::d_started</definition>
+        <argsstring></argsstring>
+        <name>d_started</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="47" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a2cafc31bbfe341aa122d59b32cf7d39e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::Beacon_impl</definition>
+        <argsstring>(long interval, long total_msg)</argsstring>
+        <name>Beacon_impl</name>
+        <param>
+          <type>long</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>total_msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a52d8bad8e54995ef9a330fc4d883d33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::~Beacon_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~Beacon_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1aeb57f43400f005def926eda3548fcf23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1ac740d8a6601427816a8f6d89542057a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* gr::IEEE_802_15_4_CustomBlocks::Beacon_impl::run_thread</definition>
+        <argsstring>(void *arg)</argsstring>
+        <name>run_thread</name>
+        <param>
+          <type>void *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>block</label>
+      </node>
+      <node id="17">
+        <label>gr::IEEE_802_15_4_CustomBlocks::Beacon</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>block</label>
+      </node>
+      <node id="20">
+        <label>gr::IEEE_802_15_4_CustomBlocks::Beacon</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" line="36" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/Beacon_impl.h" bodystart="35" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a2cafc31bbfe341aa122d59b32cf7d39e" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>Beacon_impl</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a39cfc3cf68ca4f6389d7e302d0c3f6ec" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_interval</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1ae5fc3cdd525a365dd9104a3791745bca" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_msg</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1abd4de0b63b11ed3b155cd875450f3072" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_msg_len</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1ac95970fddf96e671aae2acbe99a3bdaa" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1abd976d8d2fcdde857f1b6190378951bc" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_nmsg_left</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a1dfd57505a364beaeac4d980d3915f40" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_started</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a971f0de60b3e42db4bb94051172c12e1" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a01695e0734ac377e9f1ccb50b965dc75" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>d_total_msg</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1ae0a6dd78037c5eaeca15d1379d7a4415" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1aeb57f43400f005def926eda3548fcf23" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>run</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1ac740d8a6601427816a8f6d89542057a3" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>run_thread</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1a3fac0a221dbd318046a9ca407cc704bb" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl_1a52d8bad8e54995ef9a330fc4d883d33e" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</scope><name>~Beacon_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

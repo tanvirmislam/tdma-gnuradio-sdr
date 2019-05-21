@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::AES</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="AES_8h" local="no">AES.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES_1a8d90617ac7480808fe63e8aa841ecb2c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES" kindref="compound">AES</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;AES&gt; gr::IEEE_802_15_4_CustomBlocks::AES::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/AES.h" line="37" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/AES.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES_1ad7449195f632cdca76cb0ddfa6d40c98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES_1a8d90617ac7480808fe63e8aa841ecb2c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::IEEE_802_15_4_CustomBlocks::AES::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES" kindref="compound">IEEE_802_15_4_CustomBlocks::AES</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES" kindref="compound">IEEE_802_15_4_CustomBlocks::AES</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES_1ad7449195f632cdca76cb0ddfa6d40c98" kindref="member">IEEE_802_15_4_CustomBlocks::AES::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/AES.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>block</label>
+      </node>
+      <node id="0">
+        <label>gr::IEEE_802_15_4_CustomBlocks::AES</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::IEEE_802_15_4_CustomBlocks::AES</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/AES.h" line="35" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/AES.h" bodystart="35" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES_1ad7449195f632cdca76cb0ddfa6d40c98" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::AES</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES_1a8d90617ac7480808fe63e8aa841ecb2c" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::AES</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

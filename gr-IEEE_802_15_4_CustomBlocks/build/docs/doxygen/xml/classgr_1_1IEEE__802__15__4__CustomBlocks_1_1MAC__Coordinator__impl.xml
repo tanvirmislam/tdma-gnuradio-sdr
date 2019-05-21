@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</compoundname>
+    <basecompoundref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator" prot="public" virt="non-virtual">gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator</basecompoundref>
+    <includes refid="MAC__Coordinator__impl_8h" local="no">MAC_Coordinator_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1afd911e1d815486b5e62f083c7976ef0e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_superframe_len</definition>
+        <argsstring></argsstring>
+        <name>d_superframe_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="34" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a150d2277ff28a76c00f1f306bb45633b" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_th</definition>
+        <argsstring></argsstring>
+        <name>d_th</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="35" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a840b287c2571e145028078cb18f56899" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_total_slots</definition>
+        <argsstring></argsstring>
+        <name>d_total_slots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="36" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1aae4d131993770f200b7df1c27b3c84ce" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_msg_offset</definition>
+        <argsstring></argsstring>
+        <name>d_msg_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="38" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ac53377bf5848b07c8d9e96facc4a07df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_msg_len</definition>
+        <argsstring></argsstring>
+        <name>d_msg_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="39" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a6f564eda115abe518083a23fc815b916" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_fcf</definition>
+        <argsstring></argsstring>
+        <name>d_fcf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="40" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a06303ac1536b77b68ba1029b598717dc" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_seq_nr</definition>
+        <argsstring></argsstring>
+        <name>d_seq_nr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="41" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a4b2739b20065d367bc808d50e9c22e60" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_dst_pan</definition>
+        <argsstring></argsstring>
+        <name>d_dst_pan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="42" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a0d1018a971426aedcd6d82b9398d6ff5" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_dst_addr</definition>
+        <argsstring></argsstring>
+        <name>d_dst_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="43" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ab4a92b2d99a1f63d6eab613564ec3a64" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_coord_pan</definition>
+        <argsstring></argsstring>
+        <name>d_coord_pan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="44" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a85f281dd7bc0225d28a8037d5d398cd2" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_coord_addr</definition>
+        <argsstring></argsstring>
+        <name>d_coord_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="45" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ac1eb6d68a92dfc104790db6240237bbd" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_msg[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="47" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a47b53256c11e8106ec61704560a359e7" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_beacon_recv_ms</definition>
+        <argsstring></argsstring>
+        <name>d_beacon_recv_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="52" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a5866858a17792a6f77f37e27b87c0912" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_num_packet_errors</definition>
+        <argsstring></argsstring>
+        <name>d_num_packet_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="54" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a3e3e4488cb5a8d2b9793897d6980e44e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_num_packets_received</definition>
+        <argsstring></argsstring>
+        <name>d_num_packets_received</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="55" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a9226bfa279d668c195476cfb43927f29" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_current_slot</definition>
+        <argsstring></argsstring>
+        <name>d_current_slot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="57" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a6860cc0f98c7dc573147c4d7494f5849" prot="private" static="no" mutable="no">
+        <type>boost::posix_time::ptime</type>
+        <definition>boost::posix_time::ptime gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_last_beacon</definition>
+        <argsstring></argsstring>
+        <name>d_last_beacon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="59" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a107ad667d0a371f3f850d78db0bef3b0" prot="private" static="no" mutable="no">
+        <type>boost::posix_time::ptime</type>
+        <definition>boost::posix_time::ptime gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::d_current_time</definition>
+        <argsstring></argsstring>
+        <name>d_current_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="60" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a45b0bf12514d75c474e0d7bf09d2ae34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::MAC_Coordinator_impl</definition>
+        <argsstring>(long superframe_len, int total_slots, long threshold, int fcf, int seq_nr, int dst_pan, int coord_pan, int coord_addr)</argsstring>
+        <name>MAC_Coordinator_impl</name>
+        <param>
+          <type>long</type>
+          <declname>superframe_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total_slots</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fcf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seq_nr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_pan</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coord_pan</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coord_addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ad33c100a698d846f2770693eb5956629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::~MAC_Coordinator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~MAC_Coordinator_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1aad4edec21b8c6d4da2adfde493d651d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::send_beacon</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>send_beacon</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a0fb5ee16c392a954270c8cf1ad18a208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::assign_slot</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>assign_slot</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ab825d3235dcd488234cd9c899edb825f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::generate_mac_beacon</definition>
+        <argsstring>(const char *buf, int len)</argsstring>
+        <name>generate_mac_beacon</name>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a0ccaf86d4dc00b0f9c6583793c4743ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::generate_mac_association</definition>
+        <argsstring>(const char *buf, int len)</argsstring>
+        <name>generate_mac_association</name>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1afd89394bdbe935ef3539e16ca0c94f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl::crc16</definition>
+        <argsstring>(char *buf, int len)</argsstring>
+        <name>crc16</name>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="72" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>block</label>
+      </node>
+      <node id="28">
+        <label>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>block</label>
+      </node>
+      <node id="31">
+        <label>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" line="32" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h" bodystart="31" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a0fb5ee16c392a954270c8cf1ad18a208" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>assign_slot</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1afd89394bdbe935ef3539e16ca0c94f6e" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>crc16</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a47b53256c11e8106ec61704560a359e7" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_beacon_recv_ms</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a85f281dd7bc0225d28a8037d5d398cd2" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_coord_addr</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ab4a92b2d99a1f63d6eab613564ec3a64" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_coord_pan</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a9226bfa279d668c195476cfb43927f29" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_current_slot</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a107ad667d0a371f3f850d78db0bef3b0" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_current_time</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a0d1018a971426aedcd6d82b9398d6ff5" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_dst_addr</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a4b2739b20065d367bc808d50e9c22e60" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_dst_pan</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a6f564eda115abe518083a23fc815b916" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_fcf</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a6860cc0f98c7dc573147c4d7494f5849" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_last_beacon</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ac1eb6d68a92dfc104790db6240237bbd" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_msg</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ac53377bf5848b07c8d9e96facc4a07df" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_msg_len</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1aae4d131993770f200b7df1c27b3c84ce" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_msg_offset</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a5866858a17792a6f77f37e27b87c0912" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_num_packet_errors</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a3e3e4488cb5a8d2b9793897d6980e44e" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_num_packets_received</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a06303ac1536b77b68ba1029b598717dc" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_seq_nr</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1afd911e1d815486b5e62f083c7976ef0e" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_superframe_len</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a150d2277ff28a76c00f1f306bb45633b" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_th</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a840b287c2571e145028078cb18f56899" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>d_total_slots</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a0ccaf86d4dc00b0f9c6583793c4743ae" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>generate_mac_association</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ab825d3235dcd488234cd9c899edb825f" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>generate_mac_beacon</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1a45b0bf12514d75c474e0d7bf09d2ae34" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>MAC_Coordinator_impl</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator_1a2a72e7bff557b1e768f7480ec523d410" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1aad4edec21b8c6d4da2adfde493d651d1" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>send_beacon</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator_1ac69b008dca7a1ccba29c3e0a6192bcd7" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl_1ad33c100a698d846f2770693eb5956629" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</scope><name>~MAC_Coordinator_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

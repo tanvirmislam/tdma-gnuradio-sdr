@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</compoundname>
+    <basecompoundref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" prot="public" virt="non-virtual">gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</basecompoundref>
+    <includes refid="receiver__packet__sink__impl_8h" local="no">receiver_packet_sink_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213" prot="private" static="no">
+        <name>@0</name>
+        <enumvalue id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213a90825def0eb89c8be1fa48cae36a784e" prot="private">
+          <name>STATE_SYNC_SEARCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213ad690970a763cb7edd96bdfd6f929102d" prot="private">
+          <name>STATE_HAVE_SYNC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213abc945c70bc3665a21392718538c48e21" prot="private">
+          <name>STATE_HAVE_HEADER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="67" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a90ce1ac439795cb07e6accf32b6d3e94" prot="private" static="no" mutable="no">
+        <type>enum gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::@0</type>
+        <definition>enum gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::@0  gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1afcf389b3e0831f7f62e5580800085a4a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_sync_vector</definition>
+        <argsstring></argsstring>
+        <name>d_sync_vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="69" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a8c51a9c105fe9cec1b691ba22f9faa30" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="70" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a446a3be4cb1ef0e5ad9141900649ddfe" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_shift_reg</definition>
+        <argsstring></argsstring>
+        <name>d_shift_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="72" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a3141028c70184480ec826905b39a603e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_preamble_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_preamble_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="73" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a56f0d2bf977c04c20a0bbbca1951c74a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_chip_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_chip_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="74" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a3b58be8488cde17b58fc35c52c727ef2" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_header</definition>
+        <argsstring></argsstring>
+        <name>d_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="76" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a2d938b026f279b7403227e99f4a0d1b2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_headerbitlen_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_headerbitlen_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="77" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1acb2cd0b18a7fce1368850972713b340f" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_packet[MAX_PKT_LEN]</definition>
+        <argsstring>[MAX_PKT_LEN]</argsstring>
+        <name>d_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="79" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a17deb22f0bb3ced2ac54cf0daf4eb423" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_packet_byte</definition>
+        <argsstring></argsstring>
+        <name>d_packet_byte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="80" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1af711ca246ca67973a5f9502742a7d365" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_packet_byte_index</definition>
+        <argsstring></argsstring>
+        <name>d_packet_byte_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="81" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a7254ff90ceb33e40919fe74f2e177ea7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_packetlen</definition>
+        <argsstring></argsstring>
+        <name>d_packetlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="82" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1ab1814b6c3d3a421d1489e98a2661ddf2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_packetlen_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_packetlen_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="83" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a802e3f1e1ff53471bf447a44ab1bfb0b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_payload_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_payload_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="84" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a253c6e50c7fffbfb4151fc0c9940a5d4" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_lqi</definition>
+        <argsstring></argsstring>
+        <name>d_lqi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="86" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aff4e3bb5fbf6b0769ab18d7ca17f6d0b" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::d_lqi_sample_count</definition>
+        <argsstring></argsstring>
+        <name>d_lqi_sample_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="87" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a00839f186ff0fff54e8b059a21c6207d" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::buf[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="90" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1ac146a721fe5de053beaa091a12658d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::receiver_packet_sink_impl</definition>
+        <argsstring>(int threshold)</argsstring>
+        <name>receiver_packet_sink_impl</name>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a877f308003c5f7a3ee346fec0547871f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::~receiver_packet_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~receiver_packet_sink_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1af92b82140eb3264a9732188d1eee7a77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::enter_search</definition>
+        <argsstring>()</argsstring>
+        <name>enter_search</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a921cf77a24597c5289941cbedbee36cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::enter_have_sync</definition>
+        <argsstring>()</argsstring>
+        <name>enter_have_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a57bcbe230190dfdca590e28e665ec4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::enter_have_header</definition>
+        <argsstring>(int payload_len)</argsstring>
+        <name>enter_have_header</name>
+        <param>
+          <type>int</type>
+          <declname>payload_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a1c0598b057894eccb981be75413cb764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::count_bits32</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits32</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a735e27853734855ec11d0e0510acbcb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::decode_chips</definition>
+        <argsstring>(unsigned int chips)</argsstring>
+        <name>decode_chips</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>chips</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a27a1ca7b8f8ae5d83ea26d9925221b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::slice</definition>
+        <argsstring>(float x)</argsstring>
+        <name>slice</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1ad409b57e53c74fa611b575bf9b984104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="105" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="83">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" line="65" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/receiver_packet_sink_impl.h" bodystart="64" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a00839f186ff0fff54e8b059a21c6207d" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>buf</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a1c0598b057894eccb981be75413cb764" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>count_bits32</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a56f0d2bf977c04c20a0bbbca1951c74a" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_chip_cnt</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a3b58be8488cde17b58fc35c52c727ef2" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_header</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a2d938b026f279b7403227e99f4a0d1b2" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_headerbitlen_cnt</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a253c6e50c7fffbfb4151fc0c9940a5d4" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_lqi</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aff4e3bb5fbf6b0769ab18d7ca17f6d0b" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_lqi_sample_count</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1acb2cd0b18a7fce1368850972713b340f" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_packet</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a17deb22f0bb3ced2ac54cf0daf4eb423" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_packet_byte</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1af711ca246ca67973a5f9502742a7d365" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_packet_byte_index</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a7254ff90ceb33e40919fe74f2e177ea7" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_packetlen</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1ab1814b6c3d3a421d1489e98a2661ddf2" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_packetlen_cnt</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a802e3f1e1ff53471bf447a44ab1bfb0b" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_payload_cnt</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a3141028c70184480ec826905b39a603e" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_preamble_cnt</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a446a3be4cb1ef0e5ad9141900649ddfe" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_shift_reg</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a90ce1ac439795cb07e6accf32b6d3e94" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1afcf389b3e0831f7f62e5580800085a4a" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_sync_vector</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a8c51a9c105fe9cec1b691ba22f9faa30" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a735e27853734855ec11d0e0510acbcb9" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>decode_chips</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a57bcbe230190dfdca590e28e665ec4e8" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>enter_have_header</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a921cf77a24597c5289941cbedbee36cd" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>enter_have_sync</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1af92b82140eb3264a9732188d1eee7a77" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>enter_search</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1ad409b57e53c74fa611b575bf9b984104" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1a966300474b57191682242e088a99b36d" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1ac146a721fe5de053beaa091a12658d78" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>receiver_packet_sink_impl</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a27a1ca7b8f8ae5d83ea26d9925221b83" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>slice</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1af78b619ba26377639b5073a5afff0cb2" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213abc945c70bc3665a21392718538c48e21" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>STATE_HAVE_HEADER</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213ad690970a763cb7edd96bdfd6f929102d" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>STATE_HAVE_SYNC</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1aefd543f3327b6ca7322f2a6838636213a90825def0eb89c8be1fa48cae36a784e" prot="private" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>STATE_SYNC_SEARCH</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl_1a877f308003c5f7a3ee346fec0547871f" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</scope><name>~receiver_packet_sink_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Beacon_8h" kind="file" language="C++">
+    <compoundname>Beacon.h</compoundname>
+    <includes refid="api_8h" local="no">IEEE_802_15_4_CustomBlocks/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="Beacon__impl_8h" local="no">Beacon_impl.h</includedby>
+    <incdepgraph>
+      <node id="43">
+        <label>IEEE_802_15_4_CustomBlocks/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="42">
+        <label>Beacon.h</label>
+        <link refid="Beacon_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="47">
+        <label>Beacon_impl.h</label>
+        <link refid="Beacon__impl_8h"/>
+      </node>
+      <node id="46">
+        <label>Beacon.h</label>
+        <link refid="Beacon_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" prot="public">gr::IEEE_802_15_4_CustomBlocks::Beacon</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1IEEE__802__15__4__CustomBlocks">gr::IEEE_802_15_4_CustomBlocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/Beacon.h"/>
+  </compounddef>
+</doxygen>

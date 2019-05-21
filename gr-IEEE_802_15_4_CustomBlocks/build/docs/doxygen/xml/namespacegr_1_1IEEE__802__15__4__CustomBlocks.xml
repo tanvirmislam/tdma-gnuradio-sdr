@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1IEEE__802__15__4__CustomBlocks" kind="namespace" language="C++">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks</compoundname>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES" prot="public">gr::IEEE_802_15_4_CustomBlocks::AES</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1AES__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::AES_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" prot="public">gr::IEEE_802_15_4_CustomBlocks::Beacon</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::Beacon_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Receiver" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Receiver</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Receiver__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Receiver_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Rx" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Rx</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Rx__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Rx_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Sender" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Sender</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Sender__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Sender_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Tx" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Tx</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Tx__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Tx_impl</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" prot="public">gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</innerclass>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/AES.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

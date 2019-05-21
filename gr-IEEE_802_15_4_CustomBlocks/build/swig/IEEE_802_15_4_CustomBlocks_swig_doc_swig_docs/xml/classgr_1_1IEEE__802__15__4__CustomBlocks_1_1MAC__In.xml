@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::MAC_In</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="MAC__In_8h" local="no">MAC_In.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In_1aca555c2557933d1f7f4d8782d00bf72e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In" kindref="compound">MAC_In</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;MAC_In&gt; gr::IEEE_802_15_4_CustomBlocks::MAC_In::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/MAC_In.h" line="39" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/MAC_In.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In_1a193962c8c6bb5d220f4a960a882fa89e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In_1aca555c2557933d1f7f4d8782d00bf72e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::IEEE_802_15_4_CustomBlocks::MAC_In::make</definition>
+        <argsstring>(int fcf=0x8841, int seq_nr=0, int dst_pan=0x1aaa, int dst=0xffff, int src_pan=0xaaff, int src=0x3344)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>fcf</declname>
+          <defval>0x8841</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seq_nr</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_pan</declname>
+          <defval>0x1aaa</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst</declname>
+          <defval>0xffff</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_pan</declname>
+          <defval>0xaaff</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src</declname>
+          <defval>0x3344</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In" kindref="compound">IEEE_802_15_4_CustomBlocks::MAC_In</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In" kindref="compound">IEEE_802_15_4_CustomBlocks::MAC_In</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In_1a193962c8c6bb5d220f4a960a882fa89e" kindref="member">IEEE_802_15_4_CustomBlocks::MAC_In::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/MAC_In.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>block</label>
+      </node>
+      <node id="8">
+        <label>gr::IEEE_802_15_4_CustomBlocks::MAC_In</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>block</label>
+      </node>
+      <node id="10">
+        <label>gr::IEEE_802_15_4_CustomBlocks::MAC_In</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/MAC_In.h" line="37" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/MAC_In.h" bodystart="36" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In_1a193962c8c6bb5d220f4a960a882fa89e" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_In</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__In_1aca555c2557933d1f7f4d8782d00bf72e" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::MAC_In</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

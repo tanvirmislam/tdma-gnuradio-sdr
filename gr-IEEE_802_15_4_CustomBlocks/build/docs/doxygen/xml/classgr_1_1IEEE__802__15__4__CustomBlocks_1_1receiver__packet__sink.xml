@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl" prot="public" virt="non-virtual">gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</derivedcompoundref>
+    <includes refid="receiver__packet__sink_8h" local="no">receiver_packet_sink.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1af78b619ba26377639b5073a5afff0cb2" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" kindref="compound">receiver_packet_sink</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;receiver_packet_sink&gt; gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h" line="39" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1a966300474b57191682242e088a99b36d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1af78b619ba26377639b5073a5afff0cb2" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink::make</definition>
+        <argsstring>(int threshold=10)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" kindref="compound">IEEE_802_15_4_CustomBlocks::receiver_packet_sink</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink" kindref="compound">IEEE_802_15_4_CustomBlocks::receiver_packet_sink</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1a966300474b57191682242e088a99b36d" kindref="member">IEEE_802_15_4_CustomBlocks::receiver_packet_sink::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink_impl</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink__impl"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="80">
+        <label>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h" line="37" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/receiver_packet_sink.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1a966300474b57191682242e088a99b36d" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1receiver__packet__sink_1af78b619ba26377639b5073a5afff0cb2" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::receiver_packet_sink</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

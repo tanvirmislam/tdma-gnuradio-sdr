@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" kind="class" language="C++" prot="public">
+    <compoundname>gr::IEEE_802_15_4_CustomBlocks::Beacon</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="Beacon_8h" local="no">Beacon.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1a3fac0a221dbd318046a9ca407cc704bb" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" kindref="compound">Beacon</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Beacon&gt; gr::IEEE_802_15_4_CustomBlocks::Beacon::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/Beacon.h" line="38" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/Beacon.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1ae0a6dd78037c5eaeca15d1379d7a4415" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1a3fac0a221dbd318046a9ca407cc704bb" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::IEEE_802_15_4_CustomBlocks::Beacon::make</definition>
+        <argsstring>(long interval=1000, long total_msg=-1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>long</type>
+          <declname>interval</declname>
+          <defval>1000</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>total_msg</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" kindref="compound">IEEE_802_15_4_CustomBlocks::Beacon</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon" kindref="compound">IEEE_802_15_4_CustomBlocks::Beacon</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1ae0a6dd78037c5eaeca15d1379d7a4415" kindref="member">IEEE_802_15_4_CustomBlocks::Beacon::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/Beacon.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>block</label>
+      </node>
+      <node id="4">
+        <label>gr::IEEE_802_15_4_CustomBlocks::Beacon</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>block</label>
+      </node>
+      <node id="6">
+        <label>gr::IEEE_802_15_4_CustomBlocks::Beacon</label>
+        <link refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/Beacon.h" line="36" column="1" bodyfile="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/include/IEEE_802_15_4_CustomBlocks/Beacon.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1ae0a6dd78037c5eaeca15d1379d7a4415" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon</scope><name>make</name></member>
+      <member refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1Beacon_1a3fac0a221dbd318046a9ca407cc704bb" prot="public" virt="non-virtual"><scope>gr::IEEE_802_15_4_CustomBlocks::Beacon</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

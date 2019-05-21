@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="MAC__Coordinator__impl_8h" kind="file" language="C++">
+    <compoundname>MAC_Coordinator_impl.h</compoundname>
+    <includes refid="MAC__Coordinator_8h" local="no">IEEE_802_15_4_CustomBlocks/MAC_Coordinator.h</includes>
+    <includes refid="const_8h" local="yes">const.h</includes>
+    <incdepgraph>
+      <node id="82">
+        <label>queue</label>
+      </node>
+      <node id="75">
+        <label>IEEE_802_15_4_CustomBlocks/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>string</label>
+      </node>
+      <node id="73">
+        <label>MAC_Coordinator_impl.h</label>
+        <link refid="MAC__Coordinator__impl_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="79">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="74">
+        <label>IEEE_802_15_4_CustomBlocks/MAC_Coordinator.h</label>
+        <link refid="MAC__Coordinator_8h"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="80">
+        <label>iostream</label>
+      </node>
+      <node id="78">
+        <label>const.h</label>
+        <link refid="const_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1IEEE__802__15__4__CustomBlocks_1_1MAC__Coordinator__impl" prot="public">gr::IEEE_802_15_4_CustomBlocks::MAC_Coordinator_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1IEEE__802__15__4__CustomBlocks">gr::IEEE_802_15_4_CustomBlocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tanvir/workarea-seniordesign/senior-design-sdr/gr-IEEE_802_15_4_CustomBlocks/lib/MAC_Coordinator_impl.h"/>
+  </compounddef>
+</doxygen>

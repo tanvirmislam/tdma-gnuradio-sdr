@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<block>
+  <name>MAC_Sender</name>
+  <key>IEEE_802_15_4_CustomBlocks_MAC_Sender</key>
+  <category>[IEEE_802_15_4_CustomBlocks]</category>
+  <import>import IEEE_802_15_4_CustomBlocks</import>
+  <make>IEEE_802_15_4_CustomBlocks.MAC_Sender($fcf, $seq_nr, $dst_pan, $dst_addr, $src_pan, $src_addr, $coord_pan, $coord_addr)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Frame Control</name>
+    <key>fcf</key>
+    <value>0x8841</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Sequence Number</name>
+    <key>seq_nr</key>
+    <value>0</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Destination PAN</name>
+    <key>dst_pan</key>
+    <value>0x1aaa</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Destination Address</name>
+    <key>dst_addr</key>
+    <value>0x5566</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Source PAN</name>
+    <key>src_pan</key>
+    <value>0x1aaa</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Source Address</name>
+    <key>src_addr</key>
+    <value>0x4455</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Coordinator PAN</name>
+    <key>coord_pan</key>
+    <value>0x1aaa</value>
+    <type>hex</type>
+  </param>
+  <param>
+    <name>Coordinator Address</name>
+    <key>coord_addr</key>
+    <value>0x3344</value>
+    <type>hex</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>message in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  <sink>
+    <name>signal in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>mac out</name>
+    <type>message</type>
+    <optional>1</optional>
+</source>
+</block>
