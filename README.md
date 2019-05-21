@@ -7,3 +7,5 @@ The system includes:
         
 The following demo was set up using three PCs sending texts to each other:
 
+![](chatroom-demo.gif)
+
